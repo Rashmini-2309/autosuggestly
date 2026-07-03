@@ -13,3 +13,15 @@ h1{
 #p2{
     color:blue;
 }
+#navbar{
+    text-align: center;
+    background-color: brown;
+    height: 25px;
+    padding-top: 5px;
+}
+#navbar a{
+    margin:opx 5 px;
+    text-decoration: none;
+    color: white;
+
+}
