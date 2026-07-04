@@ -1,27 +1,68 @@
-h1{
-    color:red;
+
+h1 {
+  color: red;
 }
-#home-intro {
- text-align: center;
- border: 3px solid black;
+
+/* property : value */
 
 
+#home-intro{
+  text-align: center;
+  border: 3px solid blue;
+
 }
+
 #home-intro:hover{
-    background-color:burlywood;
+  background-color: burlywood;
 }
-#p2{
-    color:blue;
-}
-#navbar{
-    text-align: center;
-    background-color: brown;
-    height: 25px;
-    padding-top: 5px;
-}
-#navbar a{
-    margin:opx 5 px;
-    text-decoration: none;
-    color: white;
 
+#p2{
+  color: blue;
 }
+
+#nav{
+  text-align: center;
+  background-color: brown;
+  height: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nav a{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+#card{
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#card-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 20px;
+    border: 2px solid black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#action{
+  text-align: center;
+}
+#action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
